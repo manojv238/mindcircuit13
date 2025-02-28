@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: mc-app
-          image: docker-images/mc-app:3
+          image: docker-images/mc-app:latest
           ports:
             - containerPort: 8080
 
